@@ -1,0 +1,138 @@
+@import "../../app.scss";
+
+.hero {
+    height: calc(100vh - 100px);
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    position: relative;
+    overflow: hidden;
+
+    @include mobile {
+        height: calc(100vh - 50px);
+    }
+        .wrapper {
+            max-width: 1000px;
+            height: 100%;
+            margin: auto;
+            display: flex; 
+            justify-content: space-between;  
+
+            @include bigMobile {
+                flex-direction: column;
+                text-align: center;
+                gap: 30px;
+            }
+
+            .hero-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 40px;
+                @include tablet {
+                    padding-left: 1rem;
+                }
+                @include bigMobile {
+                    gap: 30px;
+                    padding-top:3rem;
+                    padding-left: 0;
+                }
+                @include mobile {
+                    padding-top: 4rem;
+                    gap: 50px;
+                }
+                h2 {
+                    font-size: 30px;
+                    color: rgb(107, 0, 215);
+                    letter-spacing: 10px;
+
+                    @include bigMobile {
+                        font-size: 22px;
+                    }
+                    @include mobile {
+                        font-size: 18px;
+                    }
+                }
+                h1 {
+                    font-size: 58px;
+                    width: 530px;
+                    letter-spacing: 2px;
+                    
+                    @include bigMobile {
+                        width: 100%;
+                        font-size: 40px;
+                    }
+                    @include mobile {
+                        width: 100%;
+                        font-size: 30px;
+                    }
+                }
+                .buttons {
+                    font-weight: 300;
+                    .btn1{
+                        border: 1px solid white;
+                        margin-right: 1rem;
+                        border-radius: .4rem;
+                        padding: .5rem;
+                        cursor: pointer;
+                        @include bigMobile {
+                            padding: .3rem;
+                        }
+                        @include mobile {
+                            padding: .2rem;
+                        }
+                    }
+                    .btn2{
+                        border: 1px solid white;
+                        margin-right: 2rem;
+                        border-radius: .4rem;
+                        padding: .5rem;
+                        cursor: pointer;
+                        background: white;
+                        color: black;
+
+                        @include bigMobile {
+                            padding: .3rem;
+                        }
+                    }
+                }
+
+            img {
+                width: 50px;
+                @include bigMobile {
+                    width: 30px;
+                    margin: auto;
+                }
+            }
+        }
+
+        .hero-image {
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+            // @include tablet {
+            //     margin-left: -5rem;
+            // }
+            // @include bigMobile {
+            //     margin-left: 0;
+            // }
+            img {
+                height: 100%;
+                width: 100%;
+                z-index: 1;
+                @include mobile {
+                    margin: auto;
+                }
+            }
+        }
+
+
+    }
+    .slideText {
+        font-size: 42vh;
+        white-space: nowrap;
+        position: absolute;
+        top: 40vh;
+        color: #ffffff0c;
+        width: 50%;
+        font-weight: bold;
+    }
+}
