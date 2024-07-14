@@ -8,6 +8,8 @@
     position: fixed;
     z-index: 999;
     transition:0.01s ease;
-
+    @include bigMobile {
+        display: none;
+    }
 }
 
