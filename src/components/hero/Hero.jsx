@@ -50,7 +50,7 @@ const Hero = () => {
                 <motion.h2 >ABDUL GAFFAR</motion.h2>
                 <motion.h1 className='stroke-text' >Web Developer And Entrepreneur</motion.h1>
                 <motion.div className="buttons">
-                    <a href="#" className='btn1'>See the latest Works</a>
+                    <a href="#Projects" className='btn1'>See the latest Works</a>
                     <a href="#Contact" className='btn2'>Contact Me</a>
                 </motion.div>
                 <motion.img  variants={textVariants} src="/scroll.png" alt="scroll" animate="scrollButton" />

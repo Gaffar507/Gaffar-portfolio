@@ -49,7 +49,7 @@ const ContactUs = () => {
     const isInView = useInView(ref)
 
   return (
-    <motion.div ref={ref} className='contact' variants={variants} initial="initial" whileInView="animate">
+    <motion.div ref={ref} className='contact' variants={variants} initial="initial" whileInView="animate" id='Contact'>
         <motion.div className="contact-title-container"  variants={variants} initial="initial" whileInView="animate">
             <motion.h1  variants={variants}> Let's Work Together</motion.h1>
             <motion.div  variants={variants}>
@@ -58,10 +58,10 @@ const ContactUs = () => {
             </motion.div>
             <motion.div variants={variants}>
                 <h3>Address</h3>
-                <p>123 Avenue Street New Your</p>
+                <p>University of Dhaka, Shabag, Dhaka, Bangladesh</p>
             </motion.div>
             <motion.div variants={variants}>
-                <h3>Phone</h3>
+                <h3>Phone / What's App</h3>
                 <p>+8801988989204</p>
             </motion.div>
         </motion.div>

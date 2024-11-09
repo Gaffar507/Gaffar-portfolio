@@ -11,14 +11,14 @@ const items = [
     },
     {
         title:'Modern Business Website',
-        img:'/modern-business.png',
-        url:'https://modern-business-uiux.netlify.app/',
+        img:'/beach-hero.png',
+        url:'https://beach-resort.netlify.app/',
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat beatae recusandae mollitia quas atque alias aperiam dolore repellat magni nesciunt unde quidem inventore."
     },
     {
-        title:'Stripe Website Clone',
-        img:'/stripe.png',
-        url:'https://stripe-web-app1.netlify.app/',
+        title:'Premium Real Estate Website',
+        img:'/real-estate.png',
+        url:'https://real-estate-project66.netlify.app/',
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat beatae recusandae mollitia quas atque alias aperiam dolore repellat magni nesciunt unde quidem inventore."
     },
     {
@@ -41,7 +41,7 @@ const ItemSection =({item})=>{
     const y = useTransform(scrollYProgress, [0, 1], [-600, 600])
 
     return <section>
-            <div className="item-container"  ref={ref}>
+            <div className="item-container"  ref={ref} id='Projects'>
                 <div className="image-container">
                     <img src={item.img} alt="Website" />
                 </div>
