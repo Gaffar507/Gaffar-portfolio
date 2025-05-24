@@ -33,7 +33,7 @@ const Hero = () => {
             x:0,
         },
         animate:{
-            x:"-220%",
+            x:"-240%",
             transition:{
                 repeat:Infinity,
                 repeatType: "mirror",
@@ -42,13 +42,12 @@ const Hero = () => {
         },
     }
 
-
   return (
     <div className='hero'>
       <motion.div className="wrapper">
         <motion.div className="hero-text" variants={textVariants} initial="initial" whileInView="animate">
                 <motion.h2 >ABDUL GAFFAR</motion.h2>
-                <motion.h1 className='stroke-text' >Web Developer And Entrepreneur</motion.h1>
+                <motion.h1 className='stroke-text' >Experienced Front End Web Developer</motion.h1>
                 <motion.div className="buttons">
                     <a href="#Projects" className='btn1'>See the latest Works</a>
                     <a href="#Contact" className='btn2'>Contact Me</a>
@@ -62,7 +61,7 @@ const Hero = () => {
       </motion.div>
 
       <motion.div className="slideText" variants={textSlide} initial="initial" animate="animate">
-            Writer Content Creator Influencer
+           Developer Entrepreneur
         </motion.div>
     </div>
   )

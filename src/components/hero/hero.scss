@@ -107,14 +107,20 @@
 
         .hero-image {
             height: 100%;
-            width: 100%;
+            width: 45%;
             z-index: 1;
-            // @include tablet {
-            //     margin-left: -5rem;
-            // }
-            // @include bigMobile {
-            //     margin-left: 0;
-            // }
+            rotate: +1deg;
+                @include tablet {
+
+                }
+                @include bigMobile {
+                    width: 80%;
+                    margin: 0 auto;
+                    rotate: +2deg;
+                }
+                @include mobile {
+
+                }
             img {
                 height: 100%;
                 width: 100%;

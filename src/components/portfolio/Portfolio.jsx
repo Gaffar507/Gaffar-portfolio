@@ -10,9 +10,9 @@ const items = [
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat beatae recusandae mollitia quas atque alias aperiam dolore repellat magni nesciunt unde quidem inventore."
     },
     {
-        title:'Modern Business Website',
-        img:'/beach-hero.png',
-        url:'https://beach-resort.netlify.app/',
+        title:'Modern E-commarce Website',
+        img:'/shopping.png',
+        url:'https://shopping-app66.netlify.app/',
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat beatae recusandae mollitia quas atque alias aperiam dolore repellat magni nesciunt unde quidem inventore."
     },
     {
